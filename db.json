@@ -1,0 +1,295 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2014,
+      "rating": 8.7,
+      "duration": "169 min",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E",
+      "isFavourite": false,
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2023-01-10T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2010,
+      "rating": 8.8,
+      "duration": "148 min",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "poster": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "isFavourite": true,
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2023-02-15T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      }
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "language": "English",
+      "releaseYear": 2008,
+      "rating": 9,
+      "duration": "152 min",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+      "isFavourite": false,
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2023-03-20T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      }
+    },
+    {
+      "title": "Dangal",
+      "genre": "Drama",
+      "language": "Hindi",
+      "releaseYear": 2016,
+      "rating": 8.3,
+      "duration": "161 min",
+      "description": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxXcbWREOB5k7gCMCuTFijg1Nh8NnXeP8CjcOPCxf_g&s=10",
+      "trailer": "https://www.youtube.com/embed/x_7YlGv9u1g",
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2023-04-05T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 4
+    },
+    {
+      "title": "Dune: Part Two",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2024,
+      "rating": 8.5,
+      "duration": "166 min",
+      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRylJUeDX0A3szgi45w98Mu_lnGQ20a5PErFHJsrPV9CA&s=10",
+      "trailer": "https://www.youtube.com/embed/Way9Dexny3w",
+      "status": "upcoming",
+      "type": "movie",
+      "uploadDate": "2023-11-20T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 6
+    },
+    {
+      "title": "Fighter",
+      "genre": "Action",
+      "language": "Hindi",
+      "releaseYear": 2024,
+      "rating": 7.5,
+      "duration": "166 min",
+      "description": "Top IAF aviators come together in the face of imminent danger, to form Air Dragons.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2DqR1bvZSPruOuqhcn8o_i0n_-uFq7v20g8bP5ZDBA&s=10",
+      "trailer": "https://www.youtube.com/embed/6amIq_mP4xM",
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2024-01-10T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 7
+    },
+    {
+      "title": "Stranger Things",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2016,
+      "rating": 8.7,
+      "duration": "4 Seasons",
+      "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkgxUVLn0x16ktSzqlqlIDYpjEo6gAcC5pL37Dlr_zMw&s=10",
+      "trailer": "https://youtu.be/mnd7sFt5c3A?si=6MaNYnBNqHOxtvE2",
+      "status": "released",
+      "type": "webseries",
+      "uploadDate": "2023-12-15T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 9
+    },
+    {
+      "title": "Mirzapur",
+      "genre": "Action",
+      "language": "Hindi",
+      "releaseYear": 2018,
+      "rating": 8.5,
+      "duration": "2 Seasons",
+      "description": "A shocking incident at a wedding procession ignites a series of events entangling the lives of two families in the lawless city of Mirzapur.",
+      "poster": "https://w0.peakpx.com/wallpaper/1017/811/HD-wallpaper-mirzapur-season-2.jpg",
+      "trailer": "https://youtu.be/33o3s4Vs4Sw?si=4b02h8QE24LHmIDB",
+      "status": "released",
+      "type": "webseries",
+      "uploadDate": "2023-12-20T10:00:00Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 10
+    },
+    {
+      "id": 11,
+      "title": "Piper",
+      "genre": "Adventure",
+      "language": "English",
+      "releaseYear": 2016,
+      "rating": 8.4,
+      "duration": "6 min",
+      "description": "A hungry sandpiper hatchling discovers that finding food without her mother's help isn't so easy.",
+      "poster": "https://image.tmdb.org/t/p/w500/uF0xEAQHLP7Qp034h0G25u1O1dJ.jpg",
+      "trailer": "https://www.youtube.com/embed/vMuK233M1Wc",
+      "isFavourite": false,
+      "status": "released",
+      "type": "short",
+      "uploadDate": "2023-12-01T10:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Tom and Jerry",
+      "genre": "Comedy",
+      "language": "English",
+      "releaseYear": 1940,
+      "rating": 9,
+      "duration": "10 min",
+      "description": "Classic cat and mouse antics.",
+      "poster": "https://image.tmdb.org/t/p/w500/sKCr78MK8cbh7UVyHkUqEXYv3y5.jpg",
+      "trailer": "https://www.youtube.com/embed/kP9TfEQmA58",
+      "isFavourite": false,
+      "status": "released",
+      "type": "cartoon",
+      "uploadDate": "2023-12-01T10:00:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Deadpool & Wolverine",
+      "genre": "Action",
+      "language": "English",
+      "releaseYear": 2024,
+      "rating": 8.5,
+      "duration": "127 min",
+      "description": "Upcoming blockbuster.",
+      "poster": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+      "trailer": "https://www.youtube.com/embed/73_1biulkYk",
+      "isFavourite": false,
+      "status": "upcoming",
+      "type": "movie",
+      "uploadDate": "2024-05-01T10:00:00Z"
+    },
+    {
+      "title": "Hanuman Ansh",
+      "genre": "Drama",
+      "language": "Hindi",
+      "releaseYear": 2026,
+      "rating": 8.8,
+      "duration": "2hr",
+      "description": "Religious movie",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD0-iX7SajlwHzWZd5U8jzGgmLsHUJzKhH_fs2O2OIIw&s=10",
+      "trailer": "https://youtu.be/YpGhCA2X3gU?si=pCp8NYOgFJrUCUFA",
+      "status": "upcoming",
+      "type": "movie",
+      "uploadDate": "2026-09-23T23:08:40.038Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 14
+    },
+    {
+      "title": "Doraemon & Peko",
+      "genre": "Adventure",
+      "language": "Hindi",
+      "releaseYear": 2024,
+      "rating": 7,
+      "duration": "1hr",
+      "description": "Doraemon and Peko",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzGmFduRj1znrAgVSi5U3MgsHqXqk-9HSBWh6W72GyB4RwV_Jz3QmZJU1Aw4FMjTrFXA1I3ebfuF4bvCW_W3uQVEImCNzKdWLO1KtM3cdk&s=10",
+      "trailer": "https://youtu.be/b6FpIMDTzKI?si=dJP09kgoRThyb0PE",
+      "status": "released",
+      "type": "cartoon",
+      "uploadDate": "2026-09-23T12:51:20.379Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 15
+    },
+    {
+      "title": "No Smoking",
+      "genre": "Thriller",
+      "language": "Hindi",
+      "releaseYear": 2007,
+      "rating": 8.8,
+      "duration": "2hr 7min",
+      "description": "No Smoking (2007) is an Indian Hindi-language psychological black comedy thriller written and directed by Anurag Kashyap and produced by Vishal Bhardwaj. The film stars John Abraham, Paresh Rawal, Ayesha Takia, and Ranvir Shorey in lead roles.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzYhxfmIStzOyhzSCELDGjs8e5efjn6BpcP5jsYG9mFw&s",
+      "trailer": "https://youtu.be/53D_Qs1C6k4?si=4cqoknWjnSWEqleR",
+      "status": "released",
+      "type": "movie",
+      "uploadDate": "2026-09-23T23:07:27.045Z",
+      "watchLinks": {
+        "youtube": "https://www.youtube.com",
+        "netflix": "https://www.netflix.com",
+        "hotstar": "https://www.hotstar.com"
+      },
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "username": "Ranjna Ray",
+      "password": "ranjna123",
+      "watchlist": [
+        3,
+        12,
+        14,
+        4,
+        1
+      ],
+      "favorites": [
+        1,
+        3,
+        12,
+        4
+      ],
+      "id": 1
+    }
+  ]
+}

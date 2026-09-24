@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailers - ChalChitra</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-left">
+            <h1 class="logo" onclick="window.location.href='index.html'">ChalChitra</h1>
+        </div>
+        <div class="nav-right">
+            <div class="nav-item" onclick="window.location.href='index.html'">Back to Home</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="movies-section">
+            <div class="movies-sidebar">
+                <h3>Filters</h3>
+                <div class="filter-group">
+                    <label for="sortOption">Sort By:</label>
+                    <select id="sortOption">
+                        <option value="recent">Recently Uploaded</option>
+                        <option value="ratingDesc">Rating (High to Low)</option>
+                        <option value="ratingAsc">Rating (Low to High)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="movies-content">
+                <h2>All Trailers</h2>
+                <div class="trailers-grid" id="trailersGrid">
+                    <!-- Trailers injected here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../exception/apiException.js"></script>
+    <script src="../exception/validationException.js"></script>
+    <script src="../js/service/apiConfig.js"></script>
+    <script src="../js/service/movieService.js"></script>
+    <script src="../js/service/userService.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/trailersLogic.js"></script>
+</body>
+</html>
+
+

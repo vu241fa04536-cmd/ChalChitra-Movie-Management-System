@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchlist - ChalChitra</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-left">
+            <h1 class="logo" onclick="window.location.reload()">ChalChitra</h1>
+            <div class="menu">
+                <i class="fas fa-bars"></i> <span data-i18n="menu">Menu</span>
+                <div class="menu-dropdown">
+                    <div onclick="window.location.href='movies.html'" data-i18n="movies">Movies</div>
+                    <div onclick="window.location.href='trailers.html'" data-i18n="trailers">Trailers</div>
+                    <div onclick="window.location.href='webseries.html'" data-i18n="webseries">Webseries</div>
+                    <div onclick="window.location.href='index.html#shortsSection'" data-i18n="shortMovies">Short Movies</div>
+                    <div onclick="window.location.href='index.html#cartoonsSection'" data-i18n="cartoons">Cartoons</div>
+                    </div>
+            </div>
+        </div>
+        <div class="nav-center">
+            <div class="search-bar">
+                <select id="searchType" class="search-dropdown">
+                    <option value="all">All</option>
+                    <option value="trailer">Trailer</option>
+                    <option value="movies">Movies</option>
+                </select>
+                <input type="text" id="searchInput" placeholder="Search ChalChitra">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="nav-item" id="signInNav" onclick="window.location.href='login.html'" data-i18n="signin">Sign in</div>
+            <div class="nav-item admin-btn" onclick="window.location.href='admin.html'">Admin</div>
+            <div class="nav-item lang-dropdown">
+                <span id="currentLang">EN</span> <i class="fas fa-caret-down"></i>
+                <div class="lang-menu" id="langMenu">
+                    <div data-lang="en">English (EN)</div>
+                    <div data-lang="hi">Hindi (HI)</div>
+                    <div data-lang="te">Telugu (TE)</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    <div class="p-20">
+        <div id="userSections">
+            <div class="movies-content mb-40">
+                <h2 data-i18n="myWatchlist">My Watchlist</h2>
+                <div class="movie-cards-container explore-grid mt-20" id="watchlistContainer"></div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+    <footer>
+        <h2>ChalChitra</h2>
+        <p>&copy; 2024 ChalChitra. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../exception/apiException.js"></script>
+    <script src="../exception/validationException.js"></script>
+    <script src="../js/service/apiConfig.js"></script>
+    <script src="../js/service/movieService.js"></script>
+    <script src="../js/service/userService.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+
