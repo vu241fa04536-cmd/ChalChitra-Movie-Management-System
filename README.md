@@ -1,4 +1,4 @@
-﻿# 🎬 ChalChitra
+<img width="1487" height="731" alt="image" src="https://github.com/user-attachments/assets/263d6d67-751e-4157-80ab-7368597a7387" />﻿# 🎬 ChalChitra
 
 > A modern, dynamic entertainment platform for browsing Movies, Web Series, and Trailers with a fully functional Admin Dashboard.
 
@@ -31,12 +31,26 @@ The project follows a strict **Separation of Concerns** architecture, isolating 
 `	ext
 ChalChitra/
 ├── assets/          # Images, Backgrounds, and Icons
+
+
 ├── css/             # Global stylesheets and modular CSS classes
+
+
 ├── exception/       # Centralized API and Validation error handlers
+
+
 ├── js/              # Frontend DOM logic (main.js, adminLogic.js, etc.)
+
+
 │   └── service/     # API service layer (movieService.js, userService.js)
+
+
 ├── views/           # Application pages (index.html, admin.html, etc.)
+
+
 ├── db.json          # JSON Server database file
+
+
 └── package.json     # Node.js dependencies
 `
 
@@ -60,7 +74,7 @@ Run the following command to start the mock REST API backend. It will run on htt
 npm start
 `
 *(Alternatively, you can run: 
-px json-server --watch db.json --port 3000)*
+npx json-server --watch db.json --port 3000)*
 
 ### 4. Open the Frontend
 Once the backend is running, simply double-click the iews/index.html file to open it in your browser, or use VS Code's Live Server.
@@ -76,8 +90,7 @@ To access the Admin Panel (via the 'Admin' link in the top navigation):
 ## 📸 Screenshots
 *(Coming Soon - Add your screenshots here!)*
 
-* **Home Page:** ![Home Page](./assets/screenshot-home.png)
-* **Admin Portal:** ![Admin Portal](./assets/screenshot-admin.png)
+
 
 ---
 *Built with ❤️ for the Project Evaluation.*
