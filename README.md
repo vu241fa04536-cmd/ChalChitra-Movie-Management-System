@@ -69,7 +69,7 @@ Once the backend is running, simply double-click the iews/index.html file to op
 
 ## 🔐 Admin Credentials
 To access the Admin Panel (via the 'Admin' link in the top navigation):
-* **Password:** anjna@123
+--password
 
 ---
 
